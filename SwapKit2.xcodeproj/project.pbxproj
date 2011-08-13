@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1500C9E913F59BDD00847CE1 /* ILServiceInvocationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1500C9E713F59BDD00847CE1 /* ILServiceInvocationController.h */; };
+		1500C9EA13F59BDD00847CE1 /* ILServiceInvocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500C9E813F59BDD00847CE1 /* ILServiceInvocationController.m */; };
+		1501CA3713F2D8F8002967DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1501CA3613F2D8F8002967DB /* Foundation.framework */; };
+		1501CA4913F2D9EE002967DB /* ILServiceIntent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1501CA4713F2D9EE002967DB /* ILServiceIntent.h */; };
+		1501CA4A13F2D9EE002967DB /* ILServiceIntent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1501CA4813F2D9EE002967DB /* ILServiceIntent.m */; };
+		150BD8CF13F41F6300BFCF09 /* ILSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 150BD8CD13F41F6300BFCF09 /* ILSchema.h */; };
+		150BD8D013F41F6300BFCF09 /* ILSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 150BD8CE13F41F6300BFCF09 /* ILSchema.m */; };
+		15E56F3513F40FB900BB31D3 /* ILUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E56F3313F40FB900BB31D3 /* ILUUID.h */; };
+		15E56F3613F40FB900BB31D3 /* ILUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E56F3413F40FB900BB31D3 /* ILUUID.m */; };
+		15E56F3A13F410CD00BB31D3 /* ILServicesSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E56F3813F410CD00BB31D3 /* ILServicesSet.h */; };
+		15E56F3B13F410CD00BB31D3 /* ILServicesSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E56F3913F410CD00BB31D3 /* ILServicesSet.m */; };
+		15E56F3E13F411C800BB31D3 /* ILServiceDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E56F3C13F411C800BB31D3 /* ILServiceDefinition.h */; };
+		15E56F3F13F411C800BB31D3 /* ILServiceDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E56F3D13F411C800BB31D3 /* ILServiceDefinition.m */; };
+		15EC5DA713F4566B00838073 /* ILServicesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EC5DA513F4566B00838073 /* ILServicesController.h */; };
+		15EC5DA813F4566B00838073 /* ILServicesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EC5DA613F4566B00838073 /* ILServicesController.m */; };
+		15EC5DAB13F4586200838073 /* ILServiceInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EC5DA913F4586200838073 /* ILServiceInvocation.h */; };
+		15EC5DAC13F4586200838073 /* ILServiceInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EC5DAA13F4586200838073 /* ILServiceInvocation.m */; };
+		15EC5DAF13F4588200838073 /* ILServicePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EC5DAD13F4588200838073 /* ILServicePicker.h */; };
+		15EC5DB013F4588200838073 /* ILServicePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EC5DAE13F4588200838073 /* ILServicePicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1500C9E713F59BDD00847CE1 /* ILServiceInvocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILServiceInvocationController.h; sourceTree = "<group>"; };
+		1500C9E813F59BDD00847CE1 /* ILServiceInvocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILServiceInvocationController.m; sourceTree = "<group>"; };
+		1501CA3313F2D8F8002967DB /* libSwapKit2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwapKit2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1501CA3613F2D8F8002967DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1501CA3A13F2D8F8002967DB /* SwapKit2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwapKit2-Prefix.pch"; sourceTree = "<group>"; };
+		1501CA4713F2D9EE002967DB /* ILServiceIntent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILServiceIntent.h; sourceTree = "<group>"; };
+		1501CA4813F2D9EE002967DB /* ILServiceIntent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILServiceIntent.m; sourceTree = "<group>"; };
+		150BD8CD13F41F6300BFCF09 /* ILSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSchema.h; sourceTree = "<group>"; };
+		150BD8CE13F41F6300BFCF09 /* ILSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSchema.m; sourceTree = "<group>"; };
+		15E56F3313F40FB900BB31D3 /* ILUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILUUID.h; sourceTree = "<group>"; };
+		15E56F3413F40FB900BB31D3 /* ILUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILUUID.m; sourceTree = "<group>"; };
+		15E56F3813F410CD00BB31D3 /* ILServicesSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILServicesSet.h; sourceTree = "<group>"; };
+		15E56F3913F410CD00BB31D3 /* ILServicesSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILServicesSet.m; sourceTree = "<group>"; };
+		15E56F3C13F411C800BB31D3 /* ILServiceDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILServiceDefinition.h; sourceTree = "<group>"; };
+		15E56F3D13F411C800BB31D3 /* ILServiceDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILServiceDefinition.m; sourceTree = "<group>"; };
+		15EC5DA513F4566B00838073 /* ILServicesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILServicesController.h; sourceTree = "<group>"; };
+		15EC5DA613F4566B00838073 /* ILServicesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILServicesController.m; sourceTree = "<group>"; };
+		15EC5DA913F4586200838073 /* ILServiceInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILServiceInvocation.h; sourceTree = "<group>"; };
+		15EC5DAA13F4586200838073 /* ILServiceInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILServiceInvocation.m; sourceTree = "<group>"; };
+		15EC5DAD13F4588200838073 /* ILServicePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILServicePicker.h; sourceTree = "<group>"; };
+		15EC5DAE13F4588200838073 /* ILServicePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILServicePicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1501CA3013F2D8F8002967DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1501CA3713F2D8F8002967DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1501CA2813F2D8F8002967DB = {
+			isa = PBXGroup;
+			children = (
+				1501CA3813F2D8F8002967DB /* SwapKit2 */,
+				1501CA3513F2D8F8002967DB /* Frameworks */,
+				1501CA3413F2D8F8002967DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1501CA3413F2D8F8002967DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1501CA3313F2D8F8002967DB /* libSwapKit2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1501CA3513F2D8F8002967DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1501CA3613F2D8F8002967DB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1501CA3813F2D8F8002967DB /* SwapKit2 */ = {
+			isa = PBXGroup;
+			children = (
+				150BD8CD13F41F6300BFCF09 /* ILSchema.h */,
+				150BD8CE13F41F6300BFCF09 /* ILSchema.m */,
+				15E56F3313F40FB900BB31D3 /* ILUUID.h */,
+				15E56F3413F40FB900BB31D3 /* ILUUID.m */,
+				15EC5DA413F4565C00838073 /* Services Controller */,
+				1501CA3913F2D8F8002967DB /* Supporting Files */,
+				15E56F3713F410BF00BB31D3 /* Outgoing */,
+			);
+			path = SwapKit2;
+			sourceTree = "<group>";
+		};
+		1501CA3913F2D8F8002967DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1501CA3A13F2D8F8002967DB /* SwapKit2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15E56F3713F410BF00BB31D3 /* Outgoing */ = {
+			isa = PBXGroup;
+			children = (
+				1501CA4713F2D9EE002967DB /* ILServiceIntent.h */,
+				1501CA4813F2D9EE002967DB /* ILServiceIntent.m */,
+				15E56F3813F410CD00BB31D3 /* ILServicesSet.h */,
+				15E56F3913F410CD00BB31D3 /* ILServicesSet.m */,
+				15E56F3C13F411C800BB31D3 /* ILServiceDefinition.h */,
+				15E56F3D13F411C800BB31D3 /* ILServiceDefinition.m */,
+				15EC5DA913F4586200838073 /* ILServiceInvocation.h */,
+				15EC5DAA13F4586200838073 /* ILServiceInvocation.m */,
+				1500C9E713F59BDD00847CE1 /* ILServiceInvocationController.h */,
+				1500C9E813F59BDD00847CE1 /* ILServiceInvocationController.m */,
+				15EC5DAD13F4588200838073 /* ILServicePicker.h */,
+				15EC5DAE13F4588200838073 /* ILServicePicker.m */,
+			);
+			name = Outgoing;
+			sourceTree = "<group>";
+		};
+		15EC5DA413F4565C00838073 /* Services Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15EC5DA513F4566B00838073 /* ILServicesController.h */,
+				15EC5DA613F4566B00838073 /* ILServicesController.m */,
+			);
+			name = "Services Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1501CA3113F2D8F8002967DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1501CA4913F2D9EE002967DB /* ILServiceIntent.h in Headers */,
+				15E56F3513F40FB900BB31D3 /* ILUUID.h in Headers */,
+				15E56F3A13F410CD00BB31D3 /* ILServicesSet.h in Headers */,
+				15E56F3E13F411C800BB31D3 /* ILServiceDefinition.h in Headers */,
+				150BD8CF13F41F6300BFCF09 /* ILSchema.h in Headers */,
+				15EC5DA713F4566B00838073 /* ILServicesController.h in Headers */,
+				15EC5DAB13F4586200838073 /* ILServiceInvocation.h in Headers */,
+				15EC5DAF13F4588200838073 /* ILServicePicker.h in Headers */,
+				1500C9E913F59BDD00847CE1 /* ILServiceInvocationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1501CA3213F2D8F8002967DB /* SwapKit2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1501CA4013F2D8F8002967DB /* Build configuration list for PBXNativeTarget "SwapKit2" */;
+			buildPhases = (
+				1501CA2F13F2D8F8002967DB /* Sources */,
+				1501CA3013F2D8F8002967DB /* Frameworks */,
+				1501CA3113F2D8F8002967DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwapKit2;
+			productName = SwapKit2;
+			productReference = 1501CA3313F2D8F8002967DB /* libSwapKit2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1501CA2A13F2D8F8002967DB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1501CA2D13F2D8F8002967DB /* Build configuration list for PBXProject "SwapKit2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1501CA2813F2D8F8002967DB;
+			productRefGroup = 1501CA3413F2D8F8002967DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1501CA3213F2D8F8002967DB /* SwapKit2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1501CA2F13F2D8F8002967DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1501CA4A13F2D9EE002967DB /* ILServiceIntent.m in Sources */,
+				15E56F3613F40FB900BB31D3 /* ILUUID.m in Sources */,
+				15E56F3B13F410CD00BB31D3 /* ILServicesSet.m in Sources */,
+				15E56F3F13F411C800BB31D3 /* ILServiceDefinition.m in Sources */,
+				150BD8D013F41F6300BFCF09 /* ILSchema.m in Sources */,
+				15EC5DA813F4566B00838073 /* ILServicesController.m in Sources */,
+				15EC5DAC13F4586200838073 /* ILServiceInvocation.m in Sources */,
+				15EC5DB013F4588200838073 /* ILServicePicker.m in Sources */,
+				1500C9EA13F59BDD00847CE1 /* ILServiceInvocationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1501CA3E13F2D8F8002967DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1501CA3F13F2D8F8002967DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1501CA4113F2D8F8002967DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SwapKit2.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwapKit2/SwapKit2-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1501CA4213F2D8F8002967DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SwapKit2.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwapKit2/SwapKit2-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1501CA2D13F2D8F8002967DB /* Build configuration list for PBXProject "SwapKit2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1501CA3E13F2D8F8002967DB /* Debug */,
+				1501CA3F13F2D8F8002967DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1501CA4013F2D8F8002967DB /* Build configuration list for PBXNativeTarget "SwapKit2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1501CA4113F2D8F8002967DB /* Debug */,
+				1501CA4213F2D8F8002967DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1501CA2A13F2D8F8002967DB /* Project object */;
+}
